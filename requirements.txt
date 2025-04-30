@@ -1,3 +1,0 @@
-fastapi
-uvicorn
-python-dotenv  # If you need to use environment variables
