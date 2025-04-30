@@ -14,7 +14,7 @@ logger = logging.getLogger("fastapi")
 # CORS Middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Adjust this for production, such as ["https://your-frontend-url"]
+    allow_origins=["https://robot-web-gui-git-master-aly-awnys-projects.vercel.app/"],  # Adjust this for production, such as ["https://your-frontend-url"]
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
